@@ -1,0 +1,4 @@
+StudentID,FirstName,FamilyName,school,sex,age,address,famsize,Pstatus,Medu,Fedu,Mjob,Fjob,reason,guardian,traveltime,studytime,failures,schoolsup,famsup,paid,activities,nursery,higher,internet,romantic,famrel,freetime,goout,Dalc,Walc,health,absences,FinalGrade
+357,Miguel,Carias,MS,F,17,U,LE3,A,3,2,services,other,reputation,mother,2,2,0,no,no,no,no,yes,yes,no,yes,1,2,3,1,2,5,2,11
+178,Sofia,Porto,GP,M,16,R,GT3,T,4,2,teacher,services,other,mother,1,1,0,no,yes,no,yes,yes,yes,yes,yes,4,3,3,3,4,3,10,9
+56,Salvador,Peixoto,GP,F,15,U,GT3,A,4,3,services,services,reputation,mother,1,2,0,no,yes,yes,yes,yes,yes,yes,no,4,3,2,1,1,1,0,15
