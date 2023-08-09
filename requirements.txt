@@ -1,5 +1,6 @@
 pandas
 numpy
-sklearn
+scikit-learn
 streamlit
+plotly
 prince

@@ -23,7 +23,10 @@ docker run -p 8501:8501 streamlit
 ![Alt text](ui.PNG)
 
 
-# Project
+# Project's primary goal
+- The objective of this project is to address the decline in academic performance resulting from school closures.
+- The envisioned dashboard will assist in identifying and prioritizing students who require assistance based on the complexity and significance of their needs, ultimately working towards improving their educational outcomes.
+
 ## Engagement and Study Habits Index
 ### Complexity of accompaniment score
 - ***Definition***: A metric gauging the complexity of student involvement and study routines.
@@ -35,3 +38,12 @@ docker run -p 8501:8501 streamlit
 The students to prioritize for assistance would be those who have high scores in the upper left
 corner of the graph at the top. This indicates that these students display both
 high alcohol consumption and/or a high number of absences.
+
+
+# Sources
+
+- P. Cortez and A. Silva. Using Data Mining to Predict Secondary School Student Performance. In A. Brito and J. Teixeira Eds., Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008) pp. 5-12, Porto, Portugal, April, 2008, EUROSIS, ISBN 978-9077381-39-7.
+
+- Scikit-learn: Machine Learning in Python, Pedregosa et al., JMLR 12, pp. 2825-2830, 2011.
+
+- Prince, Halford Max, MIT Licence, https://github.com/MaxHalford/prince
