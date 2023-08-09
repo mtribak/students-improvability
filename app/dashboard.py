@@ -36,7 +36,9 @@ st.set_page_config(
 df = read_students_data(STUDENTS_DATA_PATH)
 df = process_students_data(df)
 
+
 df = build_sidebar_body_fiters(df)
+
 
 # Body
 

@@ -147,6 +147,8 @@ def build_sidebar_body_fiters(df):
         accompanying_complexity_range,
     )
 
+    if df.empty:
+        st.error("There is no data for these filters", icon="⛔")
     return df
 
 
