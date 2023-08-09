@@ -96,12 +96,13 @@ failuers_column = CategoryColumn(
 
 def read_students_data(url: str) -> pd.DataFrame:
     students_df = pd.read_csv(url)
-    students_df.columns = students_df.columns.str.lower()
     return students_df
 
 
 @st.cache_data
-def procces_students_data(students_df: pd.DataFrame) -> pd.DataFrame:
+def process_students_data(raw_students_df: pd.DataFrame) -> pd.DataFrame:
+    students_df = raw_students_df.copy()
+    students_df.columns = students_df.columns.str.lower()
     pca_features_names = ["studytime", "walc", "absences"]
     students_df.loc[:, "success"] = (students_df.loc[:, "finalgrade"] >= 10).replace(
         {True: "Yes", False: "No"}

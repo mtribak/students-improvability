@@ -6,3 +6,7 @@ __pycache__/
 .ipynb_checkpoints/
 .pytest_cache
 .pytest_cache/
+
+
+.vscode/
+.vscode
