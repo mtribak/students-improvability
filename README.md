@@ -20,4 +20,18 @@ docker build -t streamlit .
 docker run -p 8501:8501 streamlit
 ```
 
-![Screenshot](ui.png)
+![Alt text](ui.PNG)
+
+
+# Project
+## Engagement and Study Habits Index
+### Complexity of accompaniment score
+- ***Definition***: A metric gauging the complexity of student involvement and study routines.
+- ***Range***: 0 (low risk) to 100 (high risk).
+- ***Interpretation***:
+    * **Higher scores** might signal a notable alcohol consumption rate and/or an increased count of absences, both of which could detrimentally affect students' overall well-being and academic achievements.
+    * **Lower scores** imply that students are spending more time on studying and are actively engaged in their educational pursuits.
+
+The students to prioritize for assistance would be those who have high scores in the upper left
+corner of the graph at the top. This indicates that these students display both
+high alcohol consumption and/or a high number of absences.
