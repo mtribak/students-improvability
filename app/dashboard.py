@@ -36,7 +36,11 @@ st.set_page_config(
 df = read_students_data(STUDENTS_DATA_PATH)
 df = process_students_data(df)
 
-df = build_sidebar_body_fiters(df)
+if df.shape[0] == 0:
+    st.error("There is no data", icon="⚠️")
+else:
+    df = build_sidebar_body_fiters(df)
+
 
 # Body
 
